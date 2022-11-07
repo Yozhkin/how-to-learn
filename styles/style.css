@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-p {
-  margin: 0;
-}
-
 .link {
   text-decoration: none;
   color: #2f80ed;
@@ -44,6 +40,8 @@ p {
   right: 0;
   height: 608px;
   width: 765px;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 
@@ -295,7 +293,7 @@ p {
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -319,7 +317,7 @@ p {
   margin-bottom: 18px;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   flex-flow: wrap;
   display: flex;
   flex-direction: column;
@@ -349,7 +347,7 @@ p {
   text-decoration: none;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
   padding-top: 20px;
   padding-bottom: 16px;
   display: flex;
