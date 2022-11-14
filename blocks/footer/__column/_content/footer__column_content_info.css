@@ -1,0 +1,5 @@
+.footer__column_content_info {
+  flex-flow: wrap;
+  display: flex;
+  flex-direction: column;
+}
